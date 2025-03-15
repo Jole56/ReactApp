@@ -1,0 +1,82 @@
+.admin-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .admin-container h1, .admin-container h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .admin-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .admin-nav li {
+    margin: 0;
+  }
+  .admin-nav a {
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: bold;
+  }
+
+  .form-section {
+    margin-bottom: 30px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  .form-section h3 {
+    margin-top: 0;
+  }
+  .form-section input, .form-section select {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Gumb */
+  .btn-add, .btn-delete {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .btn-add:hover, .btn-delete:hover {
+    background-color: #45a049;
+  }
+
+  .list-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .list-section li {
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list-section li button {
+    margin-left: 10px;
+  }
+  
